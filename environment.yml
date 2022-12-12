@@ -1,6 +1,6 @@
 name: time
 channels:
-  - defaults
+  - conda-forge
 dependencies:
 - python=3.9
 - jupyter
@@ -9,7 +9,7 @@ dependencies:
 - ipykernel
 - nb_conda_kernels
 - ipywidgets
-#- jupytext
+- jupytext
 - pip
 - RISE
 - altair
@@ -21,8 +21,6 @@ dependencies:
 - scipy
 - statsmodels
 - prophet
-#- fbprophet
 - plotly>=4.0
 - ipywidgets
-#- scikit-lego
-
+- scikit-lego
